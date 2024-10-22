@@ -81,6 +81,8 @@
   border-radius: 0 0 10px 10px;
 }
 .slideBody {
+  display: flex;
+  flex-direction: column;
   border-radius: 10px !important;
   background-color: #80b3df;
 }
