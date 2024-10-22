@@ -1,0 +1,22 @@
+.withus {
+  background-color: #2792f1;
+  color: white;
+  border: none;
+  padding: 0.8em;
+  border-radius: 0.5em;
+}
+.withus:hover {
+  color: aquamarine;
+}
+
+.frontText {
+  line-height: 1.8em;
+  /* letter-spacing: 0.1em; */
+}
+.moreAbout {
+  margin: 2.5em 0;
+  /* line-height: em; */
+}
+.footerMore {
+  background-color: #1f598c;
+}
