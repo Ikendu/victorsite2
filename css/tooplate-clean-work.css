@@ -1605,7 +1605,7 @@ strong {
 }
 
 .moving {
-  padding: 5px;
+  padding: 1px;
   background-color: #4f83d1;
   color: white;
   word-spacing: 15px;
