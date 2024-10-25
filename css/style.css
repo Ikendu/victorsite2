@@ -109,3 +109,11 @@
     display: none;
   }
 }
+
+.teamInfo {
+  background-color: #80b3df;
+  width: 50%;
+}
+.teamImage {
+  width: 100%;
+}
