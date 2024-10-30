@@ -1,3 +1,6 @@
+.container {
+  top: 45px;
+}
 .withus {
   background-color: #2792f1;
   color: white;
@@ -118,7 +121,7 @@
   word-spacing: 15px;
   letter-spacing: 8px;
   border-radius: 20px;
-  margin: -10px;
+  margin: 30px -10px 10px;
 }
 .cd-words-wrapper {
   font-size: 2em;
@@ -136,9 +139,6 @@
   .site-header {
     padding-top: 5px;
     padding-bottom: 5px;
-  }
-  .navbar {
-    top: 25px;
   }
   .smallText {
     font-size: 0.7em !important;
