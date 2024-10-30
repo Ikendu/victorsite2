@@ -86,30 +86,81 @@
   border-radius: 10px !important;
   background-color: #80b3df;
 }
-.ms-2::first-letter {
-  color: #871919;
+
+.ms-2 {
+  margin-left: -5px !important;
 }
 .webcaption {
   /* color: aliceblue; */
-  font-size: 1.3em;
+  font-size: 1.2em;
   max-width: 500px;
-  margin: 50px auto;
+  margin: 70px auto;
   background-color: #80b3df86;
   padding: 25px 35px;
   border-radius: 20px;
   line-height: 40px;
 }
 .webcaption::first-letter {
-  color: #871919;
+  color: #871924;
   font-size: 2em;
 }
+.cd-words-wrapper b {
+  color: #b7f447 !important;
+}
+.servicBtn {
+  color: #b7f447;
+}
+
+.moving {
+  padding: 1px;
+  background-color: #4f83d1;
+  color: white;
+  word-spacing: 15px;
+  letter-spacing: 8px;
+  border-radius: 20px;
+  margin: -10px;
+}
+.cd-words-wrapper {
+  font-size: 2em;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 @media (max-width: 990px) {
   .navbar {
     top: 0;
     background-color: #d1e8fa;
   }
 }
-
+@media (max-width: 500px) {
+  .site-header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .navbar {
+    top: 25px;
+  }
+  .smallText {
+    font-size: 0.7em !important;
+    padding: 0px;
+  }
+  .navbar-toggler {
+    width: 20px;
+  }
+  .cd-words-wrapper {
+    font-size: 1.2em;
+  }
+  .newBtn {
+    padding: 5px 10px;
+  }
+  .footerLogo {
+    padding: 5px;
+  }
+  .footerItemMobile {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 600px) {
   .bookAppointment {
     display: none;
