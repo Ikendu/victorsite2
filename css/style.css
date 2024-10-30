@@ -1,5 +1,11 @@
 .container {
-  top: 45px;
+  top: 25px;
+}
+#headerStill {
+  position: fixed;
+}
+.smallHeader {
+  
 }
 .withus {
   background-color: #2792f1;
@@ -97,7 +103,7 @@
   /* color: aliceblue; */
   font-size: 1.2em;
   max-width: 500px;
-  margin: 70px auto;
+  margin: 40px auto;
   background-color: #80b3df86;
   padding: 25px 35px;
   border-radius: 20px;
@@ -107,6 +113,9 @@
   color: #871924;
   font-size: 2em;
 }
+.smallCaption {
+  font-size: 9px;
+}
 .cd-words-wrapper b {
   color: #b7f447 !important;
 }
@@ -114,15 +123,19 @@
   color: #b7f447;
 }
 
-.moving {
+/* .moving {
   padding: 1px;
   background-color: #4f83d1;
   color: white;
   word-spacing: 15px;
   letter-spacing: 8px;
   border-radius: 20px;
-  margin: 30px -10px 10px;
+  margin: 30px -10px 0px;
 }
+.flash {
+  position: absolute;
+  bottom: -20px;
+} */
 .cd-words-wrapper {
   font-size: 2em;
   text-align: center;
