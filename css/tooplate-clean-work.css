@@ -631,6 +631,7 @@ strong {
   width: 80px;
   height: 80px;
   padding: 15px;
+  transition: 1s;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {

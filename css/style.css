@@ -3,9 +3,18 @@
 }
 #headerStill {
   position: fixed;
+  transition: 1s;
 }
 .smallHeader {
-  
+  background-color: #295a85;
+  padding: 0px;
+  transition: 1s;
+}
+.logoSmall {
+  width: 40px;
+  height: 40px;
+  padding: 7px;
+  transition: 1s;
 }
 .withus {
   background-color: #2792f1;
