@@ -231,6 +231,9 @@
 .teamText {
   padding: 20px;
 }
+.teamNumber {
+  color: #e6f6c9;
+}
 @media (max-width: 900px) {
   .teamInfo {
     margin: 3%;
