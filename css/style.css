@@ -231,3 +231,24 @@
 .teamText {
   padding: 20px;
 }
+@media (max-width: 900px) {
+  .teamInfo {
+    margin: 3%;
+  }
+}
+@media (max-width: 800px) {
+  .teamInfo {
+    width: 70%;
+  }
+  .teamAll {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .teamInfo {
+    width: 90%;
+  }
+}
